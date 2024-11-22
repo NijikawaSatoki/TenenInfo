@@ -41,26 +41,76 @@ namespace TenenInfo.Person {
                 StreamReader readFile = new StreamReader(jsonTestKun);
                 string json = readFile.ReadToEnd();
                 var testKun = JsonSerializer.Deserialize<Person>(json);
+                // Place the JSON values into variables (hopefully improves readablity)
+                string[] nameEnglish = {
+                    testKun.Name.ElementAt(0).English
+                };
+                string[] nameJapanese = {
+                    testKun.Name.ElementAt(0).Japanese
+                };
+                string[] nameRomaji = {
+                    testKun.Name.ElementAt(0).Romaji
+                };
+                string[] ipa = {
+                    testKun.Name.ElementAt(0).Pronunciation
+                };
+                string species = testKun.Species;
+                string[] ability = {
+                    testKun.Ability.ElementAt(0)
+                };
+                string sex = testKun.SexAssignedAtBirth;
+                string gender = testKun.Gender;
+                string[,] pronouns = {
+                    {
+                        testKun.Pronouns.ElementAt(0).Subjective, testKun.Pronouns.ElementAt(0).Objective, testKun.Pronouns.ElementAt(0).PossessiveDeterminer, testKun.Pronouns.ElementAt(0).PossessivePronoun, testKun.Pronouns.ElementAt(0).Reflexive
+                    }
+                };
+                string[] sexuality = {
+                    testKun.Sexuality.ElementAt(0)
+                };
+                double heightCm = testKun.Height.Centimeters;
+                string heightFtIn = testKun.Height.FeetAndInches;
+                double weightKg = testKun.Weight.Kilograms;
+                double weightLb = testKun.Weight.Pounds;
+                long age = testKun.Age;
+                string dateOfBirth = testKun.Birthday;
+                string[] familyMemberName = {
+                    testKun.Family.ElementAt(0).Name
+                };
+                long[] familyMemberAge = {
+                    testKun.Family.ElementAt(0).Age
+                };
+                string[] familyMemberRelation = {
+                    testKun.Family.ElementAt(0).Relation
+                };
+                string job = testKun.Occupation;
+                string colorSkin = testKun.SkinTone;
+                string colorHair = testKun.HairColor;
+                string colorRightEye = testKun.EyeColor.RightEye;
+                string colorLeftEye = testKun.EyeColor.LeftEye;
+                string[] bio = {
+                    testKun.Biography.ElementAt(0)
+                };
                 // Print the JSON values to console
-                Console.WriteLine($"Name: {testKun.Name.ElementAt(0).English}");
-                Console.WriteLine($"Japanese: {testKun.Name.ElementAt(0).Japanese} *{testKun.Name.ElementAt(0).Romaji}*");
-                Console.WriteLine($"Pronounced /{testKun.Name.ElementAt(0).Pronunciation}/\n");
-                Console.WriteLine($"Species: {testKun.Species}");
-                Console.WriteLine($"Abilities: {testKun.Ability.ElementAt(0)}\n");
-                Console.WriteLine($"Sex assigned at birth: {testKun.SexAssignedAtBirth}");
-                Console.WriteLine($"Gender: {testKun.Gender}");
-                Console.WriteLine($"Pronouns: {testKun.Pronouns.ElementAt(0).Subjective}/{testKun.Pronouns.ElementAt(0).Objective}/{testKun.Pronouns.ElementAt(0).PossessiveDeterminer}/{testKun.Pronouns.ElementAt(0).PossessivePronoun}/{testKun.Pronouns.ElementAt(0).Reflexive}");
-                Console.WriteLine($"Sexuality: {testKun.Sexuality.ElementAt(0)}\n");
-                Console.WriteLine($"Height: {testKun.Height.Centimeters} cm ({testKun.Height.FeetAndInches})");
-                Console.WriteLine($"Weight: {testKun.Weight.Kilograms} kg (roughly {testKun.Weight.Pounds} lb)\n");
-                Console.WriteLine($"Age: {testKun.Age}");
-                Console.WriteLine($"DOB: {testKun.Birthday}\n");
-                Console.WriteLine($"Family: {testKun.Family.ElementAt(0).Name} ({testKun.Family.ElementAt(0).Age}yo, {testKun.Family.ElementAt(0).Relation})\n");
-                Console.WriteLine($"Occupation: {testKun.Occupation}\n");
-                Console.WriteLine($"Skin Tone: #{testKun.SkinTone}");
-                Console.WriteLine($"Hair colour: #{testKun.HairColor}");
-                Console.WriteLine($"Eye colour(s): #{testKun.EyeColor.RightEye} (right eye), {testKun.EyeColor.LeftEye} (left eye)\n");
-                Console.WriteLine($"{testKun.Biography.ElementAt(0)}\n");
+                Console.WriteLine($"Name: {nameEnglish[0]}");
+                Console.WriteLine($"Japanese: {nameJapanese[0]} *{nameRomaji[0]}*");
+                Console.WriteLine($"Pronounced /{ipa[0]}/\n");
+                Console.WriteLine($"Species: {species}");
+                Console.WriteLine($"Abilities: {ability[0]}\n");
+                Console.WriteLine($"Sex assigned at birth: {sex}");
+                Console.WriteLine($"Gender: {gender}");
+                Console.WriteLine($"Pronouns: {pronouns[0, 0]}/{pronouns[0, 1]}/{pronouns[0, 2]}/{pronouns[0, 3]}/{pronouns[0, 4]}");
+                Console.WriteLine($"Sexuality: {sexuality[0]}\n");
+                Console.WriteLine($"Height: {heightCm} cm ({heightFtIn})");
+                Console.WriteLine($"Weight: {weightKg} kg (roughly {weightLb} lb)\n");
+                Console.WriteLine($"Age: {age}");
+                Console.WriteLine($"DOB: {dateOfBirth}\n");
+                Console.WriteLine($"Family: {familyMemberName} ({familyMemberAge}yo, {familyMemberRelation})\n");
+                Console.WriteLine($"Occupation: {job}\n");
+                Console.WriteLine($"Skin Tone: #{colorSkin}");
+                Console.WriteLine($"Hair colour: #{colorHair}");
+                Console.WriteLine($"Eye colour(s): #{colorRightEye} (right eye), {colorLeftEye} (left eye)\n");
+                Console.WriteLine($"{bio[0]}\n");
                 // Close the IO stream
                 readFile.Close();
             // lausUsAnOyrraC
