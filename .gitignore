@@ -397,5 +397,8 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
+# ghostwriter backup files
+*.md.backup
+
 # Other
 rel/
