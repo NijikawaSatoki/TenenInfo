@@ -9,6 +9,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Text;
 using System.Text.Json;
 
 using Niji.Convenience;
@@ -17,6 +18,8 @@ using TenenInfo.Person;
 namespace TenenInfo {
     class MainProgram {
         static void Main() {
+            // Force UTF-8 encoding, since C# doesn't seem to do it right :(
+            Console.OutputEncoding = Encoding.UTF8;
             Convenience convenience = new Convenience();
             int category;
             int choice;
