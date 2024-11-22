@@ -12,12 +12,12 @@ In a terminal shell (`cmd.exe` if on Windows, your usual terminal if on Linux), 
 
 If on Linux:
 ```
-dotnet build --nologo --configuration Release --self-contained true --runtime linux-x86 -o ./rel/TenenInfo/
+dotnet publish --nologo --configuration Release --self-contained true --runtime linux-x86 -o ./rel/TenenInfo/
 ```
 
 If on Windows (via `cmd.exe`):
 ```
-dotnet build --nologo --configuration Release --self-contained true --runtime win-x86 -o rel\TenenInfo\
+dotnet publish --nologo --configuration Release --self-contained true --runtime win-x86 -o rel\TenenInfo\
 ```
 
 If that seems overly verbose, it's `dotnet`.
