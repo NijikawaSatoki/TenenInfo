@@ -56,6 +56,10 @@ namespace TenenInfo.Person {
                 Console.WriteLine($"DOB: {testKun.Birthday}\n");
                 Console.WriteLine($"Family: {testKun.Family.AtElement(0).Name} ({testKun.Family.AtElement(0).Age}yo, {testKun.Family.AtElement(0).Relation})\n");
                 Console.WriteLine($"Occupation: {testKun.Occupation}\n");
+                Console.WriteLine($"Skin Tone: #{testKun.SkinTone}");
+                Console.WriteLine($"Hair colour: #{testKun.HairColor}");
+                Console.WriteLine($"Eye colour(s): #{testKun.EyeColor.RightEye} (right eye), {testKun.EyeColor.LeftEye} (left eye)\n");
+                Console.WriteLine($"{testKun.Biography.AtElement(0)}\n");
                 // Close the IO stream
                 readFile.Close();
             // lausUsAnOyrraC
