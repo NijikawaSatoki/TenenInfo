@@ -1,0 +1,43 @@
+﻿{
+    "Name":[{
+        "English":"Test-kun",
+        "Japanese":"テストくん",
+        "Romaji":"Tesuto-kun",
+        "Pronunciation":"te̞sɨ̥to̞.kɯ̟̃ɴ"
+    }],
+    "Species":"Human",
+    "Ability":["Test anything and everything"],
+    "SexAssignedAtBirth":"AXAB",
+    "Gender":"Genderless",
+    "Pronouns":[{
+        "Subjective":"they",
+        "Objective":"them",
+        "PossessiveDeterminer":"their",
+        "PossessivePronoun":"theirs",
+        "Reflexive":"themself"
+    }],
+    "Sexuality":["Aroace"],
+    "Height": {
+        "Centimeters": 175.2,
+        "FeetAndInches": "5'9\""
+    },
+    "Weight":{
+        "Kilograms":69.22,
+        "Pounds":152.6
+    },
+    "Age":9450000000000000,
+    "Birthday":"Unknown",
+    "Family":[{
+        "Name":"Satoki Nijikawa",
+        "Age":26,
+        "Relation":"Master"
+    }],
+    "Occupation":"Tester",
+    "SkinTone":"000000",
+    "HairColor":"9F9F9F",
+    "EyeColor":{
+        "RightEye":"FF2000",
+        "LeftEye":"FF2000"
+    },
+    "Biography":["A human that Satoki created in order to test stuff, and to serve as an informational placeholder."]
+}
