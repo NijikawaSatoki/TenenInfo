@@ -11,6 +11,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.Collections.Immutable;
 using System.IO;
 using System.Linq;
 using System.Text.Json;
@@ -41,25 +42,25 @@ namespace TenenInfo.Person {
                 string json = readFile.ReadToEnd();
                 var testKun = JsonSerializer.Deserialize<Person>(json);
                 // Print the JSON values to console
-                Console.WriteLine($"Name: {testKun.Name.First().English}");
-                Console.WriteLine($"Japanese: {testKun.Name.First().Japanese} *{testKun.Name.First().Romaji}*");
-                Console.WriteLine($"Pronounced /{testKun.Name.First().Pronunciation}/\n");
+                Console.WriteLine($"Name: {testKun.Name.ElementAt(0).English}");
+                Console.WriteLine($"Japanese: {testKun.Name.ElementAt(0).Japanese} *{testKun.Name.ElementAt(0).Romaji}*");
+                Console.WriteLine($"Pronounced /{testKun.Name.ElementAt(0).Pronunciation}/\n");
                 Console.WriteLine($"Species: {testKun.Species}");
-                Console.WriteLine($"Abilities: {testKun.Ability.First()}\n");
+                Console.WriteLine($"Abilities: {testKun.Ability.ElementAt(0)}\n");
                 Console.WriteLine($"Sex assigned at birth: {testKun.SexAssignedAtBirth}");
                 Console.WriteLine($"Gender: {testKun.Gender}");
-                Console.WriteLine($"Pronouns: {testKun.Pronouns.First().Subjective}/{testKun.Pronouns.First().Objective}/{testKun.Pronouns.First().PossessiveDeterminer}/{testKun.Pronouns.First().PossessivePronoun}/{testKun.Pronouns.First().Reflexive}");
-                Console.WriteLine($"Sexuality: {testKun.Sexuality.First()}\n");
+                Console.WriteLine($"Pronouns: {testKun.Pronouns.ElementAt(0).Subjective}/{testKun.Pronouns.ElementAt(0).Objective}/{testKun.Pronouns.ElementAt(0).PossessiveDeterminer}/{testKun.Pronouns.ElementAt(0).PossessivePronoun}/{testKun.Pronouns.ElementAt(0).Reflexive}");
+                Console.WriteLine($"Sexuality: {testKun.Sexuality.ElementAt(0)}\n");
                 Console.WriteLine($"Height: {testKun.Height.Centimeters} cm ({testKun.Height.FeetAndInches})");
                 Console.WriteLine($"Weight: {testKun.Weight.Kilograms} kg (roughly {testKun.Weight.Pounds} lb)\n");
                 Console.WriteLine($"Age: {testKun.Age}");
                 Console.WriteLine($"DOB: {testKun.Birthday}\n");
-                Console.WriteLine($"Family: {testKun.Family.First().Name} ({testKun.Family.First().Age}yo, {testKun.Family.First().Relation})\n");
+                Console.WriteLine($"Family: {testKun.Family.ElementAt(0).Name} ({testKun.Family.ElementAt(0).Age}yo, {testKun.Family.ElementAt(0).Relation})\n");
                 Console.WriteLine($"Occupation: {testKun.Occupation}\n");
                 Console.WriteLine($"Skin Tone: #{testKun.SkinTone}");
                 Console.WriteLine($"Hair colour: #{testKun.HairColor}");
                 Console.WriteLine($"Eye colour(s): #{testKun.EyeColor.RightEye} (right eye), {testKun.EyeColor.LeftEye} (left eye)\n");
-                Console.WriteLine($"{testKun.Biography.First()}\n");
+                Console.WriteLine($"{testKun.Biography.ElementAt(0)}\n");
                 // Close the IO stream
                 readFile.Close();
             // lausUsAnOyrraC
