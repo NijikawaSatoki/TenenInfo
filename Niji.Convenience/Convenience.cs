@@ -16,6 +16,7 @@
 using System;
 using System.IO;
 using System.Runtime.InteropServices;
+using System.Threading;
 
 namespace Niji.Convenience {
     class Convenience {
@@ -78,6 +79,15 @@ namespace Niji.Convenience {
         public long Input64BitInteger() {
             long int64 = Convert.ToInt64(Console.ReadLine());
             return int64;
+        }
+        public void wait() {
+            Console.Write(".");
+            Thread.Sleep(1000);
+            Console.Write(".");
+            Thread.Sleep(1000);
+            Console.Write(".");
+            Thread.Sleep(1000);
+            Console.Write("\r   \r");
         }
     }
 }
