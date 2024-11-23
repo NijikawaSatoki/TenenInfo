@@ -44,8 +44,18 @@ namespace TenenInfo {
                 // End of switch block
             }
             Console.WriteLine("Have a nice day.");
-            Console.Write("Press <RETURN> on your keyboard to exit... ");
-            while (Console.ReadKey().Key != ConsoleKey.Enter) {}
+            Console.WriteLine("Press <RETURN> on your keyboard to exit... ");
+            do {
+                while (!Console.KeyAvailable) {
+                    Console.Write(".");
+                    System.Threading.Thread.Sleep(1000);
+                    Console.Write(".");
+                    System.Threading.Thread.Sleep(1000);
+                    Console.Write(".");
+                    System.Threading.Thread.Sleep(1000);
+                    Console.Write("\r   \r");
+                }
+            } while (Console.ReadKey().Key != ConsoleKey.Enter);
             Console.Write(Environment.NewLine);
         }
     }
