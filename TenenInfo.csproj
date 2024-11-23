@@ -1,27 +1,272 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
+  <!-- プロジェクトのプロパティ / Project properties -->
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
   <ItemGroup>
     <None Remove="data\json\Test\Test-kun.json" />
+    <None Remove="data\json\ushie\town.Ushie\AiAsa.json" />
   </ItemGroup>
-
+  <!-- コピーしているJSONファイル / JSON files to copy -->
   <ItemGroup>
+    <!-- テンプレート / Template -->
     <Content Include="data\json\.template\template.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <!-- テストくん / Test-kun -->
     <Content Include="data\json\Test\Test-kun.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <!-- 宇志江王国宇志江町の人 / Peoples of Ushie, Ushie -->
+    <Content Include="data\json\ushie\town.Ushie\AiAsa.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\AkiraOhsada.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\AkkoShinogawa.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\AkutanosukeIde.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\AyaKurata.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\ChiyuriIde.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\ChochohanamuKinoi.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\EishiKitagawa.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\EjiriKatashima.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\EveMatsubara.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\FudjiInugami.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\FumieSakurazaki.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\FumioSakakibara.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\HachiyukiInugami.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\HameyuriKatagiri.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\HanakoFujiyama.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\HeidiBlatherwick.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\HibariyoInugami.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\HideoShimamura.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\HuangfuJiutu.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\IkuNagata.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\Isegami-no-Mikoto.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\JohmaSotsureita.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\KaedeUmebayashi.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\KaoruInugami.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\KazumiSamejima.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\KeisukeOzawa.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\KenjirouShiraki.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\KitSaionji.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\KoishiMiki.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\KoujuugasaTakara.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\KoukoShitahara.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\LilikoTsuboike.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\LumiRokuda.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\MamikoKatagiri.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\MariKatagiri.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\MasashiMiyahara.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\MayumiSugita.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\MiikoKugimiya.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\MinaSasaki.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\MomokoNakadani.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\MotoyukiSakada.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\NagisaEdamitsu.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\NorikoNishikiri.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\OkaKatagiri.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\OkimiShinogawa.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\OrimeHori.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\OtomeMotozawa.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\RieTsukitou.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\RinneHouraiji.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\RinyaKatagiri.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\RisakoSakagawa.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\RisaShibutou.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\RitsukoYakumo.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\SakuraSerizawa.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\SatsukiTakara.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\ShigekazuInugami.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\ShigematsuFujimori.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\ShinogawaNoIrisa.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\Shinogawa-no-Midori-no-Nise-Mikoto.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\Shinogawa-no-Osamu-no-Nise-Mikoto.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\Shinogawa-no-Rin-no-Mikoto.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\ShinoKaneda.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\ShinoSakurasame.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\ShizukaOsaki.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\SouichirouImakasa.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\TadasukeKusumoto.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\TarseeHirai.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\TatsuyaIzumi.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\WasutaHiramoto.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\YakiKishima.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\YasunobuWakaizumi.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\YorichieYamaarashi.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\YuiHatano.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\YukariTakara.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\YumikoHoshidera.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\YumisaHagiwara.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\YuujiShinogawa.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\YuunoYagami.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\YuurouKishima.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\json\ushie\town.Ushie\ZhangLingxin.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
-
+  <!-- 含めたディレクトリ / Included project directories -->
   <ItemGroup>
     <Folder Include="Niji.Convenience\" />
   </ItemGroup>
-
 </Project>
