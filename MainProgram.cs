@@ -43,13 +43,7 @@ namespace TenenInfo {
             Console.WriteLine("Press <RETURN> on your keyboard to exit... ");
             do {
                 while (!Console.KeyAvailable) {
-                    Console.Write(".");
-                    Thread.Sleep(1000);
-                    Console.Write(".");
-                    Thread.Sleep(1000);
-                    Console.Write(".");
-                    Thread.Sleep(1000);
-                    Console.Write("\r   \r");
+                    convenience.wait();
                 }
             } while (Console.ReadKey().Key != ConsoleKey.Enter);
             Console.Write(Environment.NewLine);
