@@ -1,0 +1,66 @@
+﻿{
+    "Name":[{
+        "English":"Yumiko Hoshidera",
+        "Japanese":"干寺　幽美故",
+        "Romaji":"Hoshidera Yumiko",
+        "Pronunciation":"ho̞ɕide̞ɾa̠ jɯ̟ᵝmʲiko̞"
+    },
+    {
+        "English":"Síleas Fólais",
+        "Japanese":"シーリェス・フォーレシュ",
+        "Romaji":"Shīryesu Fōreshu",
+        "Pronunciation":"s̪iːʎes̪ fɔːl̪ˠɛʃ"
+    }],
+    "Species":"Cait Sith",
+    "Ability":["Use very powerful magicks"],
+    "SexAssignedAtBirth":"Intersex (AXAB)",
+    "Gender":"Demigirl",
+    "Pronouns":[{
+        "Subjective":"she",
+        "Objective":"her",
+        "PossessiveDeterminer":"her",
+        "PossessivePronoun":"hers",
+        "Reflexive":"herself"
+    },
+    {
+        "Subjective":"cat",
+        "Objective":"cat",
+        "PossessiveDeterminer":"cats",
+        "PossessivePronoun":"cats",
+        "Reflexive":"catself"
+    }],
+    "Sexuality":["Lesbian"],
+    "Height": {
+        "Centimeters": 161.5,
+        "FeetAndInches":"roughly 5'4\""
+    },
+    "Weight":{
+        "Kilograms":54.97,
+        "Pounds":121.2
+    },
+    "Age":14,
+    "Birthday":"21 Shessheswarhqa 0331 Ashu",
+    "Family":[{
+        "Name":"Mòr Fòlais",
+        "Age":51,
+        "Relation":"Mother"
+    },
+    {
+        "Name":"Siùsanmhoirbheinn Fòlais",
+        "Age":49,
+        "Relation":"Parent"
+    },
+    {
+        "Name":"Lìosa Fòlais",
+        "Age":17,
+        "Relation":"Older sibling"
+    }],
+    "Occupation":"Familiar",
+    "SkinTone":"000000",
+    "HairColor":"000000",
+    "EyeColor":{
+        "RightEye":"000000",
+        "LeftEye":"000000"
+    },
+    "Biography":[""]
+}
