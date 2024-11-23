@@ -82,11 +82,11 @@ namespace Niji.Convenience {
         }
         public void wait() {
             Console.Write(".");
-            Thread.Sleep(1000);
+            Thread.Sleep(2000);
             Console.Write(".");
-            Thread.Sleep(1000);
+            Thread.Sleep(2000);
             Console.Write(".");
-            Thread.Sleep(1000);
+            Thread.Sleep(2000);
             Console.Write("\r   \r");
         }
     }
