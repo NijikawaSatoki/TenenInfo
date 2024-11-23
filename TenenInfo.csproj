@@ -8,14 +8,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="data\json\personTest\Test-kun.json" />
+    <None Remove="data\json\Test\Test-kun.json" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="data\json\.template\template.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="data\json\personTest\Test-kun.json">
+    <Content Include="data\json\Test\Test-kun.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
