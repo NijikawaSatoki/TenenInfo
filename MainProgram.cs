@@ -46,6 +46,7 @@ namespace TenenInfo {
             Console.WriteLine("Have a nice day.");
             Console.Write("Press <RETURN> on your keyboard to exit... ");
             while (Console.ReadKey().Key != ConsoleKey.Enter) {}
+            Console.Write(Environment.NewLine);
         }
     }
 }
