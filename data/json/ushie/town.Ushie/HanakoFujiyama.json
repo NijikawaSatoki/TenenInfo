@@ -1,0 +1,43 @@
+﻿{
+    "Name":[{
+        "English":"Hanako Fujiyama",
+        "Japanese":"藤山　葉菜子",
+        "Romaji":"Fujiyama Hanako",
+        "Pronunciation":"ɸɯ̟ᵝd͡ʑija̠ma̠ ha̠na̠ko̞"
+    }],
+    "Species":"Kitsune",
+    "Ability":[""],
+    "SexAssignedAtBirth":"",
+    "Gender":"",
+    "Pronouns":[{
+        "Subjective":"",
+        "Objective":"",
+        "PossessiveDeterminer":"",
+        "PossessivePronoun":"",
+        "Reflexive":""
+    }],
+    "Sexuality":[""],
+    "Height": {
+        "Centimeters": 0.0,
+        "FeetAndInches":"0'0\""
+    },
+    "Weight":{
+        "Kilograms":0.0,
+        "Pounds":0.0
+    },
+    "Age":0,
+    "Birthday":"",
+    "Family":[{
+        "Name":"",
+        "Age":0,
+        "Relation":""
+    }],
+    "Occupation":"",
+    "SkinTone":"000000",
+    "HairColor":"000000",
+    "EyeColor":{
+        "RightEye":"000000",
+        "LeftEye":"000000"
+    },
+    "Biography":[""]
+}
