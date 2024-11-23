@@ -12,6 +12,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Text.Json;
+using System.Threading;
 
 using Niji.Convenience;
 using TenenInfo.Person;
@@ -43,11 +44,11 @@ namespace TenenInfo {
             do {
                 while (!Console.KeyAvailable) {
                     Console.Write(".");
-                    System.Threading.Thread.Sleep(1000);
+                    Thread.Sleep(1000);
                     Console.Write(".");
-                    System.Threading.Thread.Sleep(1000);
+                    Thread.Sleep(1000);
                     Console.Write(".");
-                    System.Threading.Thread.Sleep(1000);
+                    Thread.Sleep(1000);
                     Console.Write("\r   \r");
                 }
             } while (Console.ReadKey().Key != ConsoleKey.Enter);
