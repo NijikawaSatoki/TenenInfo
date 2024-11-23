@@ -1,0 +1,43 @@
+﻿{
+    "Name":[{
+        "English":"Yui Hatano",
+        "Japanese":"秦野　結",
+        "Romaji":"Hatano Yui",
+        "Pronunciation":"ha̠ta̠no̞ jɯ̟ᵝi"
+    }],
+    "Species":"Butterfly youkai",
+    "Ability":[""],
+    "SexAssignedAtBirth":"AFAB",
+    "Gender":"Cis girl",
+    "Pronouns":[{
+        "Subjective":"she",
+        "Objective":"her",
+        "PossessiveDeterminer":"her",
+        "PossessivePronoun":"hers",
+        "Reflexive":"herself"
+    }],
+    "Sexuality":[""],
+    "Height": {
+        "Centimeters": 0.0,
+        "FeetAndInches":"0'0\""
+    },
+    "Weight":{
+        "Kilograms":0.0,
+        "Pounds":0.0
+    },
+    "Age":0,
+    "Birthday":"",
+    "Family":[{
+        "Name":"",
+        "Age":0,
+        "Relation":""
+    }],
+    "Occupation":"",
+    "SkinTone":"000000",
+    "HairColor":"000000",
+    "EyeColor":{
+        "RightEye":"000000",
+        "LeftEye":"000000"
+    },
+    "Biography":[""]
+}
