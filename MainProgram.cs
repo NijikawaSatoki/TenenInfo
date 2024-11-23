@@ -23,9 +23,9 @@ namespace TenenInfo {
             Console.OutputEncoding = Encoding.UTF8;
             // Initialise objects
             Convenience convenience = new Convenience();
+            ZoukagamirokuCategory category_zkgmrk = new ZoukagamirokuCategory();
             // Initialise variables
             int category;
-            int choice;
             // Ask the user for their input
             Console.WriteLine("Pick a category:");
             Console.WriteLine("0. Test");
@@ -33,19 +33,7 @@ namespace TenenInfo {
             // Check against user input
             switch (category) {
                 case 0:
-                    // Ask the user for input
-                    Console.WriteLine("Whose info do you want?");
-                    Console.WriteLine("1. Test-kun");
-                    choice = convenience.Input32BitInteger();
-                    // Check against user input
-                    switch (choice) {
-                        case 1:
-                            var testKun = new Test();
-                            testKun.TestKun();
-                            break;
-                        // End of switch block
-                    }
-                    Console.WriteLine("Only one TwT");
+                    category_zkgmrk.Test();
                     break;
                 // End of switch block
             }
