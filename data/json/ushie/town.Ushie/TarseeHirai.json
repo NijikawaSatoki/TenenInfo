@@ -1,0 +1,43 @@
+﻿{
+    "Name":[{
+        "English":"Tarsee Hirai",
+        "Japanese":"平井　タルスィ",
+        "Romaji":"Hirai Tarusi",
+        "Pronunciation":"çiɾa̠.i ta̠rsʲiː"
+    }],
+    "Species":"Half tanuki half inugami",
+    "Ability":[""],
+    "SexAssignedAtBirth":"AMAB (MtF)",
+    "Gender":"Trans woman",
+    "Pronouns":[{
+        "Subjective":"she",
+        "Objective":"her",
+        "PossessiveDeterminer":"her",
+        "PossessivePronoun":"hers",
+        "Reflexive":"herself"
+    }],
+    "Sexuality":[""],
+    "Height": {
+        "Centimeters": 0.0,
+        "FeetAndInches":"0'0\""
+    },
+    "Weight":{
+        "Kilograms":0.0,
+        "Pounds":0.0
+    },
+    "Age":0,
+    "Birthday":"",
+    "Family":[{
+        "Name":"",
+        "Age":0,
+        "Relation":""
+    }],
+    "Occupation":"Gynecologist",
+    "SkinTone":"000000",
+    "HairColor":"000000",
+    "EyeColor":{
+        "RightEye":"000000",
+        "LeftEye":"000000"
+    },
+    "Biography":[""]
+}
