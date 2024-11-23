@@ -24,7 +24,7 @@ namespace TenenInfo {
             Console.OutputEncoding = Encoding.UTF8;
             // Initialise objects
             Convenience convenience = new Convenience();
-            ZoukagamirokuCategory category_zkgmrk = new ZoukagamirokuCategory();
+            ZoukagamirokuCategory zoukagamiroku = new ZoukagamirokuCategory();
             // Initialise variables
             int category;
             // Ask the user for their input
@@ -34,7 +34,7 @@ namespace TenenInfo {
             // Check against user input
             switch (category) {
                 case 0:
-                    category_zkgmrk.Test();
+                    zoukagamiroku.Test();
                     break;
                 // End of switch block
             }
