@@ -1,0 +1,48 @@
+﻿{
+    "Name":[{
+        "English":"Heidi Blatherwick",
+        "Japanese":"ハイディ・ブラザーウィック",
+        "Romaji":"Haidi Burazāwikku",
+        "Pronunciation":"haɪdi blæðəwɪk"
+    }],
+    "Species":"Magician",
+    "Ability":["Unknown"],
+    "SexAssignedAtBirth":"AFAB",
+    "Gender":"Cis woman",
+    "Pronouns":[{
+        "Subjective":"she",
+        "Objective":"her",
+        "PossessiveDeterminer":"her",
+        "PossessivePronoun":"hers",
+        "Reflexive":"herself"
+    }],
+    "Sexuality":["Unknown"],
+    "Height": {
+        "Centimeters": 0.0,
+        "FeetAndInches":"0'0\""
+    },
+    "Weight":{
+        "Kilograms":0.0,
+        "Pounds":0.0
+    },
+    "Age":0,
+    "Birthday":"",
+    "Family":[{
+        "Name":"Shedremith Serjyameelum",
+        "Age":41,
+        "Relation":"Partner"
+    },
+    {
+        "Name":"Lilac Blatherwick",
+        "Age":8,
+        "Relation":"Child"
+    }],
+    "Occupation":"Unknown",
+    "SkinTone":"000000",
+    "HairColor":"000000",
+    "EyeColor":{
+        "RightEye":"000000",
+        "LeftEye":"000000"
+    },
+    "Biography":["She is Lilac's mother.","Having fallen into a deep coma during childbirth, she now rests in a hospital bed at Isegami-no-Mikoto Royal Hospital."]
+}
