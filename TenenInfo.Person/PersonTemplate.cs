@@ -16,12 +16,9 @@ using System.IO;
 using System.Linq;
 using System.Text.Json;
 
-namespace TenenInfo.Person
-{
-    class PersonTemplate
-    {
-        public void TemplateToFollow()
-        {
+namespace TenenInfo.Person {
+    class PersonTemplate {
+        public void TemplateToFollow() {
             // Inserts a linebreak after the previous Console.ReadLine()
             Console.Write(Environment.NewLine);
             // All the paths mess...
@@ -33,12 +30,9 @@ namespace TenenInfo.Person
             Directory.CreateDirectory($@"{dataFolder}/{jsonDir}");
             string templateJson = $@"{dataFolder}/{jsonDir}/template.json";
             // Checks if the JSON in the data folder exists, copies from assembly location if not
-            if (File.Exists(templateJson))
-            {
+            if (File.Exists(templateJson)) {
                 Console.WriteLine("All files are already copied to where they need to be.");
-            }
-            else
-            {
+            } else {
                 File.Copy(jsonTemplateDat, $@"{dataFolder}/{jsonDir}/template.json");
             }
             string jsonTemplate = $@"{dataFolder}/data/json/.template/template.json";
