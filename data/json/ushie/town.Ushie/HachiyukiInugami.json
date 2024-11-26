@@ -1,0 +1,79 @@
+﻿{
+    "Name":[{
+        "English":"Hachiyuki Inugami",
+        "Japanese":"犬上　波知之",
+        "Romaji":"Inugami Hachiyuki",
+        "Pronunciation":"inɯ̟ᵝɡa̠mʲi ça̠t͡ɕijɯ̟ᵝkʲi"
+    }],
+    "Species":"Dog youkai",
+    "Ability":[""],
+    "SexAssignedAtBirth":"AMAB",
+    "Gender":"Cis man",
+    "Pronouns":[{
+        "Subjective":"he",
+        "Objective":"him",
+        "PossessiveDeterminer":"his",
+        "PossessivePronoun":"his",
+        "Reflexive":"himself"
+    }],
+    "AnyPronouns":true
+    "Sexuality":["Gay"],
+    "Height": {
+        "Centimeters": 0.0,
+        "FeetAndInches":"0'0\""
+    },
+    "Weight":{
+        "Kilograms":0.0,
+        "Pounds":0.0
+    },
+    "Age":19,
+    "Birthday":"26 Eshertushinawarhqa 0326 Ashu",
+    "Family":[{
+        "Name":"Shigekazu Inugami",
+        "Age":52,
+        "Relation":"Father"
+    },
+    {
+        "Name":"Fudji Inugami",
+        "Age":49,
+        "Relation":"Mother"
+    },
+    {
+        "Name":"Akko Shinogawa",
+        "Age":29,
+        "Relation":"Older sister"
+    },
+    {
+        "Name":"Hibariyo Inugami",
+        "Age":16,
+        "Relation":"Younger sister"
+    },
+    {
+        "Name":"Kaoru Inugami",
+        "Age":9,
+        "Relation":"Younger sibling"
+    },
+    {
+        "Name":"Okimi Shinogawa",
+        "Age":13,
+        "Relation":"Niece"
+    },
+    {
+        "Name":"Esumi Clara Cederström",
+        "Age":11,
+        "Relation":"Nibling"
+    },
+    {
+        "Name":"Mitsuhide Ibaraki",
+        "Age":8,
+        "Relation":"Nibling"
+    }],
+    "Occupation":"",
+    "SkinTone":"",
+    "HairColor":"770077→44BB33",
+    "EyeColor":{
+        "RightEye":"770077→44BB33",
+        "LeftEye":"770077→44BB33"
+    },
+    "Biography":[""]
+}
