@@ -1,0 +1,57 @@
+﻿{
+    "Name":[{
+        "English":"Akutanosuke Ide",
+        "Japanese":"伊豐　芥之介",
+        "Romaji":"Ide Akutanosuke",
+        "Pronunciation":"ide̞ a̠kɯ̟ᵝta̠no̞sɯ̟ᵝke̞"
+    }],
+    "Species":"Sake youkai",
+    "Ability":["Turning blood into sake"],
+    "SexAssignedAtBirth":"AMAB",
+    "Gender":"Genderflux",
+    "Pronouns":[{
+        "Subjective":"he",
+        "Objective":"him",
+        "PossessiveDeterminer":"his",
+        "PossessivePronoun":"his",
+        "Reflexive":"himself"
+    },
+    {
+        "Subjective":"they",
+        "Objective":"them",
+        "PossessiveDeterminer":"their",
+        "PossessivePronoun":"theirs",
+        "Reflexive":"themself"
+    },
+    {
+        "Subjective":"it",
+        "Objective":"it",
+        "PossessiveDeterminer":"its",
+        "PossessivePronoun":"its",
+        "Reflexive":"itself"
+    }],
+    "Sexuality":["Aromantic"],
+    "Height": {
+        "Centimeters": 0.0,
+        "FeetAndInches":"0'0\""
+    },
+    "Weight":{
+        "Kilograms":0.0,
+        "Pounds":0.0
+    },
+    "Age":36,
+    "Birthday":"30 Ishtenwarhqa 0309 Ashu",
+    "Family":[{
+        "Name":"Chiyuri Ide",
+        "Age":13,
+        "Relation":"Child"
+    }],
+    "Occupation":"Barkeep",
+    "SkinTone":"000000",
+    "HairColor":"000000",
+    "EyeColor":{
+        "RightEye":"000000",
+        "LeftEye":"000000"
+    },
+    "Biography":[""]
+}
