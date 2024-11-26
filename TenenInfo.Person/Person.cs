@@ -22,6 +22,7 @@ namespace TenenInfo.Person {
         public string SexAssignedAtBirth { get; set; }
         public string Gender { get; set; }
         public List<Pronoun> Pronouns { get; set; }
+        public bool AnyPronouns { get; set; }
         public List<string> Sexuality { get; set; }
         public Height Height { get; set; }
         public Weight Weight { get; set; }
