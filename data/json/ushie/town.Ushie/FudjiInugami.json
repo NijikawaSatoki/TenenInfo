@@ -1,0 +1,83 @@
+﻿{
+    "Name":[{
+        "English":"Fudji Inugami",
+        "Japanese":"犬上　藤",
+        "Romaji":"Inugami Fuji",
+        "Pronunciation":"inɯ̟ᵝɡa̠mʲi ɸɯ̟ᵝd͡ʑi"
+    }],
+    "Species":"Dog youkai",
+    "Ability":[""],
+    "SexAssignedAtBirth":"AMAB (MtF)",
+    "Gender":"Trans woman",
+    "Pronouns":[{
+        "Subjective":"she",
+        "Objective":"her",
+        "PossessiveDeterminer":"her",
+        "PossessivePronoun":"hers",
+        "Reflexive":"herself"
+    }],
+    "Sexuality":["Bisexual"],
+    "Height": {
+        "Centimeters": 0.0,
+        "FeetAndInches":"0'0\""
+    },
+    "Weight":{
+        "Kilograms":0.0,
+        "Pounds":0.0
+    },
+    "Age":49,
+    "Birthday":"23 Hamshaswarhqa 0296 Ashu",
+    "Family":[{
+        "Name":"Shigekazu Inugami",
+        "Age":52,
+        "Relation":"Husband"
+    },
+    {
+        "Name":"Akko Shinogawa",
+        "Age":29,
+        "Relation":"Daughter"
+    },
+    {
+        "Name":"Hachiyuki Inugami",
+        "Age":19,
+        "Relation":"Son"
+    },
+    {
+        "Name":"Hibariyo Inugami",
+        "Age":16,
+        "Relation":"Daughter"
+    },
+    {
+        "Name":"Kaoru Inugami",
+        "Age":9,
+        "Relation":"Child"
+    },
+    {
+        "Name":"Yuuji Shinogawa",
+        "Age":31,
+        "Relation":"Son-in-law"
+    },
+    {
+        "Name":"Okimi Shinogawa",
+        "Age":13,
+        "Relation":"Granddaughter"
+    },
+    {
+        "Name":"Esumi Clara Cederström",
+        "Age":11,
+        "Relation":"Grandchild"
+    },
+    {
+        "Name":"Mitsuhide Ibaraki",
+        "Age":8,
+        "Relation":"Grandchild"
+    }],
+    "Occupation":"",
+    "SkinTone":"",
+    "HairColor":"770077→44BB33",
+    "EyeColor":{
+        "RightEye":"770077→44BB33",
+        "LeftEye":"770077→44BB33"
+    },
+    "Biography":["The wife of Shigekazu and the mother of Akko, Hachiyuki, Hibariyo, and Kaoru. She is also the grandmother of Okimi, Esumi, and Mitsuhide."]
+}
