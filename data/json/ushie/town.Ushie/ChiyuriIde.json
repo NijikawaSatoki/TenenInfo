@@ -1,0 +1,50 @@
+﻿{
+    "Name":[{
+        "English":"Chiyuri Ide",
+        "Japanese":"伊豐　ちゆり",
+        "Romaji":"Ide Chiyuri",
+        "Pronunciation":"ide̞ t͡ɕijɯ̟ᵝɾʲi"
+    }],
+    "Species":"Sake youkai",
+    "Ability":["Turning blood into sake"],
+    "SexAssignedAtBirth":"AFAB",
+    "Gender":"Non-binary girl",
+    "Pronouns":[{
+        "Subjective":"she",
+        "Objective":"her",
+        "PossessiveDeterminer":"her",
+        "PossessivePronoun":"hers",
+        "Reflexive":"herself"
+    },
+    {
+        "Subjective":"it",
+        "Objective":"it",
+        "PossessiveDeterminer":"its",
+        "PossessivePronoun":"its",
+        "Reflexive":"itself"
+    }],
+    "Sexuality":["Questioning"],
+    "Height": {
+        "Centimeters": 157.1,
+        "FeetAndInches":"5'2\""
+    },
+    "Weight":{
+        "Kilograms":49.04,
+        "Pounds":108.1
+    },
+    "Age":13,
+    "Birthday":"26 Eshertu'ishtenwarhqa 0332 Ashu",
+    "Family":[{
+        "Name":"Akutanosuke Ide",
+        "Age":36,
+        "Relation":"Father"
+    }],
+    "Occupation":"Student",
+    "SkinTone":"000000",
+    "HairColor":"000000",
+    "EyeColor":{
+        "RightEye":"000000",
+        "LeftEye":"000000"
+    },
+    "Biography":[""]
+}
