@@ -1,0 +1,50 @@
+﻿{
+    "Name":[{
+        "English":"Rinne Houraiji",
+        "Japanese":"蓬莱寺　燐音",
+        "Romaji":"Hōraiji Rinne",
+        "Pronunciation":"ho̞ːɾa̠id͡ʑi ɾʲĩnːe̞"
+    }],
+    "Species":"Artificial oni",
+    "Ability":[""],
+    "SexAssignedAtBirth":"AFAB",
+    "Gender":"Agender",
+    "Pronouns":[{
+        "Subjective":"they",
+        "Objective":"them",
+        "PossessiveDeterminer":"their",
+        "PossessivePronoun":"theirs",
+        "Reflexive":"themself"
+    },
+    {
+        "Subjective":"it",
+        "Objective":"it",
+        "PossessiveDeterminer":"its",
+        "PossessivePronoun":"its",
+        "Reflexive":"itself"
+    }],
+    "Sexuality":["Pansexual"],
+    "Height": {
+        "Centimeters": 163.4,
+        "FeetAndInches":"5'4\""
+    },
+    "Weight":{
+        "Kilograms":55.74,
+        "Pounds":122.9
+    },
+    "Age":17,
+    "Birthday":"Created 29 Sebeswarhqa 0328 Ashu",
+    "Family":[{
+        "Name":"",
+        "Age":0,
+        "Relation":""
+    }],
+    "Occupation":"",
+    "SkinTone":"F1AA68",
+    "HairColor":"2BC277",
+    "EyeColor":{
+        "RightEye":"FFA0A8",
+        "LeftEye":"9518C4"
+    },
+    "Biography":[""]
+}
