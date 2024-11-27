@@ -1,0 +1,85 @@
+﻿{
+    "Name":[{
+        "English":"Hibariyo Inugami",
+        "Japanese":"犬上　雲雀代",
+        "Romaji":"Inugami Hibariyo",
+        "Pronunciation":"inɯ̟ᵝɡa̠mʲi çiba̠ɾʲijo̞"
+    }],
+    "Species":"Dog youkai",
+    "Ability":[""],
+    "SexAssignedAtBirth":"AMAB (MtF)",
+    "Gender":"Trans girl",
+    "Pronouns":[{
+        "Subjective":"she",
+        "Objective":"her",
+        "PossessiveDeterminer":"her",
+        "PossessivePronoun":"hers",
+        "Reflexive":"herself"
+    },
+    {
+        "Subjective":"de",
+        "Objective":"dem",
+        "PossessiveDeterminer":"dier",
+        "PossessivePronoun":"diers",
+        "Reflexive":"demself"
+    }],
+    "Sexuality":["Aroace"],
+    "Height": {
+        "Centimeters": 0.0,
+        "FeetAndInches":"0'0\""
+    },
+    "Weight":{
+        "Kilograms":0.0,
+        "Pounds":0.0
+    },
+    "Age":16,
+    "Birthday":"14 Tishiswarhqa 0329 Ashu",
+    "Family":[{
+        "Name":"Shigekazu Inugami",
+        "Age":52,
+        "Relation":"Father"
+    },
+    {
+        "Name":"Fudji Inugami",
+        "Age":49,
+        "Relation":"Mother"
+    },
+    {
+        "Name":"Akko Shinogawa",
+        "Age":29,
+        "Relation":"Older sister"
+    },
+    {
+        "Name":"Hachiyuki Inugami",
+        "Age":19,
+        "Relation":"Older brother"
+    },
+    {
+        "Name":"Kaoru Inugami",
+        "Age":9,
+        "Relation":"Younger sibling"
+    },
+    {
+        "Name":"Okimi Shinogawa",
+        "Age":13,
+        "Relation":"Niece"
+    },
+    {
+        "Name":"Esumi Clara Cederström",
+        "Age":11,
+        "Relation":"Nibling"
+    },
+    {
+        "Name":"Mitsuhide Ibaraki",
+        "Age":8,
+        "Relation":"Nibling"
+    }],
+    "Occupation":"",
+    "SkinTone":"000000",
+    "HairColor":"770077→44BB33",
+    "EyeColor":{
+        "RightEye":"44BB33→770077",
+        "LeftEye":"44BB33→770077"
+    },
+    "Biography":[""]
+}
