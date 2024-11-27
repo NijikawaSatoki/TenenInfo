@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# This builds the source on 64-bit Linux systems.
+dotnet publish --nologo --configuration Release --self-contained true --runtime linux-x64 -p:PublishSingleFile=True -o ./rel/
