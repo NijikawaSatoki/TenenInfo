@@ -12,12 +12,12 @@ In a terminal shell (`cmd.exe` if on Windows, your usual terminal if on Linux), 
 
 If on Linux:
 ```
-dotnet publish --nologo --configuration Release --self-contained true --runtime linux-x64 -p:PublishSingleFile=True -o ./rel/TenenInfo/
+dotnet publish --nologo --configuration Release --self-contained true --runtime linux-x64 -p:PublishSingleFile=True -o ./rel/
 ```
 
 If on Windows (via `cmd.exe`):
 ```
-dotnet publish --nologo --configuration Release --self-contained true --runtime win-x86 -p:PublishSingleFile=True -o rel\TenenInfo\
+dotnet publish --nologo --configuration Release --self-contained true --runtime win-x86 -p:PublishSingleFile=True -o rel\
 ```
 
 If that seems overly verbose, it's `dotnet`.
@@ -29,10 +29,10 @@ Then run from the command line your executable.
 
 Windows:
 ```
-rel\TenenInfo\TenenInfo.exe
+rel\TenenInfo.exe
 ```
 
 Linux:
 ```
-./rel/TenenInfo/TenenInfo
+./rel/TenenInfo
 ```
