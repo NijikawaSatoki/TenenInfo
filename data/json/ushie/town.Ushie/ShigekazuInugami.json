@@ -1,0 +1,83 @@
+﻿{
+    "Name":[{
+        "English":"Shigekazu Inugami",
+        "Japanese":"犬上　茂和",
+        "Romaji":"Inugami Shigekazu",
+        "Pronunciation":"inɯ̟ᵝɡa̠mʲi ɕiɡe̞ka̠d͡zɯ̟ᵝ"
+    }],
+    "Species":"Dog youkai",
+    "Ability":[""],
+    "SexAssignedAtBirth":"AFAB (FtM)",
+    "Gender":"Trans man",
+    "Pronouns":[{
+        "Subjective":"he",
+        "Objective":"him",
+        "PossessiveDeterminer":"his",
+        "PossessivePronoun":"his",
+        "Reflexive":"himself"
+    }],
+    "Sexuality":["Straight"],
+    "Height": {
+        "Centimeters": 0.0,
+        "FeetAndInches":"0'0\""
+    },
+    "Weight":{
+        "Kilograms":0.0,
+        "Pounds":0.0
+    },
+    "Age":52,
+    "Birthday":"29 Hamshaswarhqa 0293 Ashu",
+    "Family":[{
+        "Name":"Fudji Inugami",
+        "Age":49,
+        "Relation":"Wife"
+    },
+    {
+        "Name":"Akko Shinogawa",
+        "Age":29,
+        "Relation":"Daughter"
+    },
+    {
+        "Name":"Hachiyuki Inugami",
+        "Age":19,
+        "Relation":"Son"
+    },
+    {
+        "Name":"Hibariyo Inugami",
+        "Age":16,
+        "Relation":"Daughter"
+    },
+    {
+        "Name":"Kaoru Inugami",
+        "Age":9,
+        "Relation":"Child"
+    },
+    {
+        "Name":"Yuuji Shinogawa",
+        "Age":31,
+        "Relation":"Child-in-law"
+    },
+    {
+        "Name":"Okimi Shinogawa",
+        "Age":13,
+        "Relation":"Granddaughter"
+    },
+    {
+        "Name":"Esumi Clara Cederström",
+        "Age":11,
+        "Relation":"Grandchild"
+    },
+    {
+        "Name":"Mitsuhide Ibaraki",
+        "Age":8,
+        "Relation":"Grandchild"
+    }],
+    "Occupation":"",
+    "SkinTone":"000000",
+    "HairColor":"770077→44BB33",
+    "EyeColor":{
+        "RightEye":"44BB33→770077",
+        "LeftEye":"44BB33→770077"
+    },
+    "Biography":[""]
+}
